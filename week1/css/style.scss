@@ -2,7 +2,7 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-    font-family: 'Monserrat', sans-serif;
+    // font-family: 'Monserrat', sans-serif;
 }
 
 #container {
@@ -20,9 +20,17 @@
         svg {
             width: 600px;
             height: 600px;
-            circle#circ {
-                padding: 0%;
+            // circle#circ {
+            //     padding: 0%;
+            // }
+            rect#rect {
+                stroke: white;
+                stroke-width: 50px;
+                fill: red;
+                // width: 50px;
+                // height: 50px;
             }
+            .st0{fill:#ED1C24;stroke:#FFFFFF;stroke-width:30;stroke-miterlimit:10;}
         }
 
     }

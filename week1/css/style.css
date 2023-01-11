@@ -3,7 +3,6 @@
   margin: 0%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Monserrat', sans-serif;
 }
 
 #container {
@@ -33,7 +32,16 @@
   height: 600px;
 }
 
-#container section svg circle#circ {
-  padding: 0%;
+#container section svg rect#rect {
+  stroke: white;
+  stroke-width: 50px;
+  fill: red;
+}
+
+#container section svg .st0 {
+  fill: #ED1C24;
+  stroke: #FFFFFF;
+  stroke-width: 30;
+  stroke-miterlimit: 10;
 }
 /*# sourceMappingURL=style.css.map */
