@@ -91,3 +91,58 @@
     stroke-dashoffset: 0;
     transition: 7s all linear;
   }
+
+  ///Pattern 3
+
+  .blackA, .blackB {
+    stroke: #231f20;
+    // stroke-dasharray: 10000;
+    // stroke-dashoffset: 10000;
+  }
+
+  .blackA, .blackB, .brownLine, .skyLine {
+    stroke-miterlimit: 10;
+    // stroke-dasharray: 10000;
+    // stroke-dashoffset: 10000;
+  }
+
+  .blackA, .brownLine, .skyLine {
+    fill: none;
+    // stroke-dasharray: 10000;
+    // stroke-dashoffset: 10000;
+  }
+
+  .blackB {
+    fill: #231f20;
+    // stroke-dasharray: 10000;
+    // stroke-dashoffset: 10000;
+  }
+
+  .brownLine {
+    stroke: #9b8579;
+    // stroke-dasharray: 10000;
+    // stroke-dashoffset: 10000;
+  }
+
+  .brownLine, .skyLine {
+    stroke-width: 4px;
+    // stroke-dasharray: 10000;
+    // stroke-dashoffset: 10000;
+  }
+
+  .skyLine {
+    stroke: url(#Fading_Sky);
+    // stroke-dasharray: 10000;
+    // stroke-dashoffset: 10000;
+  }
+
+  .blackA {
+    stroke-dasharray: 10000;
+    stroke-dashoffset: 10000;
+  }
+
+  svg:hover .blackA, .brownLine {
+    stroke-dashoffset: 0;
+    transition: 7s all linear;
+  }
+  //can't make the snake have patterns yet, did it in reverse

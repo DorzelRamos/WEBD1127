@@ -81,4 +81,42 @@
 svg:hover .greenLine {
   stroke-dashoffset: 0;
   transition: 7s all linear;
+}
+
+.blackA, .blackB {
+  stroke: #231f20;
+}
+
+.blackA, .blackB, .brownLine, .skyLine {
+  stroke-miterlimit: 10;
+}
+
+.blackA, .brownLine, .skyLine {
+  fill: none;
+}
+
+.blackB {
+  fill: #231f20;
+}
+
+.brownLine {
+  stroke: #9b8579;
+}
+
+.brownLine, .skyLine {
+  stroke-width: 4px;
+}
+
+.skyLine {
+  stroke: url(#Fading_Sky);
+}
+
+.blackA {
+  stroke-dasharray: 10000;
+  stroke-dashoffset: 10000;
+}
+
+svg:hover .blackA, .brownLine {
+  stroke-dashoffset: 0;
+  transition: 7s all linear;
 }/*# sourceMappingURL=style.css.map */
