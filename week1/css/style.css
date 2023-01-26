@@ -1,8 +1,7 @@
 * {
   padding: 0%;
   margin: 0%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 #container {
@@ -10,38 +9,27 @@
   height: 100vh;
   background-color: red;
 }
-
 #container section {
   height: 90%;
   background-color: black;
   position: relative;
   top: 10%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
-
 #container section svg {
   width: 600px;
   height: 600px;
 }
-
 #container section svg rect#rect {
   stroke: white;
   stroke-width: 50px;
   fill: red;
 }
-
 #container section svg .st0 {
   fill: #ED1C24;
   stroke: #FFFFFF;
   stroke-width: 30;
   stroke-miterlimit: 10;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
