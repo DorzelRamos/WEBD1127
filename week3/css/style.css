@@ -2,92 +2,121 @@
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
 
 #container {
   width: 100%;
   height: 100vh;
-  background-color: red;
+  background-color: bisque;
 }
-
 #container header, #container footer {
   background-color: black;
   height: 70px;
   width: 100%;
   position: relative;
   color: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-size: 2em;
 }
-
 #container header footer, #container footer footer {
   bottom: 0;
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-family: "Montserrat", sans-serif;
 }
-
 #container header header, #container footer header {
   font-family: "Montserrat", sans-serif;
 }
-
 #container section {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   height: calc(100% - 140px);
 }
-
 #container section svg {
   margin-top: 35px;
   height: 80%;
   cursor: pointer;
 }
-
 #container section svg .blackLine {
   stroke: #231f20;
   stroke-dasharray: 10000;
   stroke-dashoffset: 10000;
 }
-
 #container section svg .blackLine, #container section svg .greyLine {
   fill: none;
   stroke-miterlimit: 10;
   stroke-width: 4px;
 }
-
 #container section svg .greyLine {
   stroke: #a7a9ac;
 }
-
 #container svg:hover .blackLine {
   stroke-dashoffset: 0;
-  -webkit-transition: 7s all linear;
   transition: 7s all linear;
 }
-/*# sourceMappingURL=style.css.map */
+
+.greenLine {
+  stroke: #8dc63f;
+  stroke-dasharray: 10000;
+  stroke-dashoffset: 10000;
+}
+
+.greenLine, .blackLine_2 {
+  fill: none;
+  stroke-miterlimit: 10;
+  stroke-width: 4px;
+}
+
+.blackLine_2 {
+  stroke: #231f20;
+}
+
+svg:hover .greenLine {
+  stroke-dashoffset: 0;
+  transition: 7s all linear;
+}
+
+.blackA, .blackB {
+  stroke: #231f20;
+}
+
+.blackA, .blackB, .brownLine, .skyLine {
+  stroke-miterlimit: 10;
+}
+
+.blackA, .brownLine, .skyLine {
+  fill: none;
+}
+
+.blackB {
+  fill: #231f20;
+}
+
+.brownLine {
+  stroke: #9b8579;
+}
+
+.brownLine, .skyLine {
+  stroke-width: 4px;
+}
+
+.skyLine {
+  stroke: url(#Fading_Sky);
+}
+
+.blackA {
+  stroke-dasharray: 10000;
+  stroke-dashoffset: 10000;
+}
+
+svg:hover .blackA, .brownLine {
+  stroke-dashoffset: 0;
+  transition: 7s all linear;
+}/*# sourceMappingURL=style.css.map */
