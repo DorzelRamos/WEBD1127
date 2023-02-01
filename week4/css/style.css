@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+div#container {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #8A8330;
+}
+
+div#container svg {
+  width: 50%;
+}
+
+div#container svg #circle {
+  stroke-miterlimit: 10;
+  stroke-width: 3px;
+}
+
+div#container svg #circle, div#container svg .letters {
+  fill: none;
+  stroke: #892240;
+}
+/*# sourceMappingURL=style.css.map */
