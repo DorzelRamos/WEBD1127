@@ -17,20 +17,73 @@ div#container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #8A8330;
+  background-color: #8a8330;
 }
 
 div#container svg {
   width: 50%;
 }
 
+div#container svg #circle,
+div#container svg .letters {
+  fill: none;
+  stroke: #892240;
+}
+
+div#container svg .letters {
+  stroke-linejoin: round;
+  stroke-dasharray: 177;
+  stroke-dashoffset: 177;
+  -webkit-animation: 8s lettersAnimate forwards;
+          animation: 8s lettersAnimate forwards;
+}
+
 div#container svg #circle {
   stroke-miterlimit: 10;
   stroke-width: 3px;
+  stroke-dasharray: 275;
+  stroke-dashoffset: 275;
+  -webkit-animation: 4s circleAnimate forwards;
+          animation: 4s circleAnimate forwards;
+  -webkit-animation-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.27);
+          animation-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.27);
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
-div#container svg #circle, div#container svg .letters {
-  fill: none;
-  stroke: #892240;
+@-webkit-keyframes circleAnimate {
+  from {
+    stroke-dasharray: 275;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes circleAnimate {
+  from {
+    stroke-dasharray: 275;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@-webkit-keyframes lettersAnimate {
+  from {
+    stroke-dashoffset: 177;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes lettersAnimate {
+  from {
+    stroke-dashoffset: 177;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */
