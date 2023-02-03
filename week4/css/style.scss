@@ -67,6 +67,11 @@ div#two {
       stroke: #231f20;
       stroke-miterlimit: 10;
       stroke-width: 10px;
+      stroke-dasharray: 1470;
+      stroke-dashoffset: 1470;
+      animation: 4s circleTwoAnimate forwards;
+      animation-timing-function: cubic-bezier(0.18,0.89,0.32,1.27);;
+
     }
 
     .circleTwo, .lettersTwo {
@@ -76,6 +81,28 @@ div#two {
     .lettersTwo {
       stroke: #000;
       stroke-width: 6px;
+      stroke-linejoin: round;
+      stroke-dasharray: 790;
+      stroke-dashoffset: 790;
+      animation: 6s lettersTwoAnimate forwards;
+      animation-timing-function: cubic-bezier(.17,.67,.39,.97);
+    }
+
+    @keyframes circleTwoAnimate {
+      from {
+        stroke-dasharray: 1470;
+      }
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes lettersTwoAnimate {
+      from {
+        stroke-dasharray: 790;
+      }
+      to {
+        stroke-dashoffset: 0;
+      }
     }
   }
 }
