@@ -105,4 +105,57 @@ div#two {
       }
     }
   }
+} //divTwo ends here //////////////
+
+div#bye {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: teal;
+  svg {
+    width: 40%;
+    .byeLet {
+      stroke-width: 6px;
+      stroke-dasharray: 790;
+      stroke-dashoffset: 790;
+      animation: 5s byeLetAnimate forwards;
+      animation-timing-function: cubic-bezier(0,1,.92,.23);
+    }
+
+    .byeLet, .circleTri {
+      fill: none;
+      stroke: #e6e7e8;
+    }
+
+    .circleTri {
+      stroke-miterlimit: 10;
+      stroke-width: 15px;
+      stroke-dasharray: 1470;
+      stroke-dashoffset: 1470;
+      animation: 5s circleTriAnimate forwards;
+      animation-timing-function: cubic-bezier(.27,.73,.92,.23);
+      animation-delay: 0.5s;
+    }
+
+    @keyframes circleTriAnimate {
+      from {
+        stroke-dasharray: 1470;
+      }
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes byeLetAnimate {
+      from {
+        stroke-dasharray: 790;
+      }
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+  }
 }
+
+

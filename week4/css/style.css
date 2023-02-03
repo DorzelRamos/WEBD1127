@@ -139,4 +139,73 @@ div#two svg .lettersTwo {
   to {
     stroke-dashoffset: 0;
   }
+}
+
+div#bye {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: teal;
+}
+div#bye svg {
+  width: 40%;
+}
+div#bye svg .byeLet {
+  stroke-width: 6px;
+  stroke-dasharray: 790;
+  stroke-dashoffset: 790;
+  -webkit-animation: 5s byeLetAnimate forwards;
+          animation: 5s byeLetAnimate forwards;
+  -webkit-animation-timing-function: cubic-bezier(0, 1, 0.92, 0.23);
+          animation-timing-function: cubic-bezier(0, 1, 0.92, 0.23);
+}
+div#bye svg .byeLet, div#bye svg .circleTri {
+  fill: none;
+  stroke: #e6e7e8;
+}
+div#bye svg .circleTri {
+  stroke-miterlimit: 10;
+  stroke-width: 15px;
+  stroke-dasharray: 1470;
+  stroke-dashoffset: 1470;
+  -webkit-animation: 5s circleTriAnimate forwards;
+          animation: 5s circleTriAnimate forwards;
+  -webkit-animation-timing-function: cubic-bezier(0.27, 0.73, 0.92, 0.23);
+          animation-timing-function: cubic-bezier(0.27, 0.73, 0.92, 0.23);
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+@-webkit-keyframes circleTriAnimate {
+  from {
+    stroke-dasharray: 1470;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes circleTriAnimate {
+  from {
+    stroke-dasharray: 1470;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes byeLetAnimate {
+  from {
+    stroke-dasharray: 790;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes byeLetAnimate {
+  from {
+    stroke-dasharray: 790;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
 }/*# sourceMappingURL=style.css.map */
