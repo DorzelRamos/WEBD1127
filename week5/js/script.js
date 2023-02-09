@@ -7,6 +7,7 @@ $(document).ready(function(){
     let circle = $('#circle');
     let letters = $('.letters');
     let paths = $('svg#spiroGraph > .myPaths');
+    let spiro = $('svg#spiroOne > .spiroOne')
     console.log(circle);
     // gsap.from(circle,{duration: 4, drawSVG: 0, delay: 5});
     let tl1 = gsap.timeline();
@@ -17,6 +18,9 @@ $(document).ready(function(){
 
     let tl2 = gsap.timeline();
     tl2.from(paths, {duration: 1, y:-200,ease:"bounce.out(1)", autoAlpha: 0, stagger: 0.3}, 2);
+
+    let tl3 = gsap.timeline();
+    tl3.from(spiro, {duration: 2, stagger: 1, ease:"elastic.out(1,0.3)", y:-500}, 1);
 
     GSDevTools.create();
 

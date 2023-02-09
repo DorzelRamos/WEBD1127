@@ -24,40 +24,20 @@ div#container svg .letters {
   stroke-linejoin: round;
   stroke-dasharray: 177;
   stroke-dashoffset: 177;
-  -webkit-animation: 8s lettersAnimate forwards;
-          animation: 8s lettersAnimate forwards;
+  animation: 8s lettersAnimate forwards;
 }
 div#container svg #circle {
   stroke-miterlimit: 10;
   stroke-width: 3px;
   stroke-dasharray: 275;
   stroke-dashoffset: 275;
-  -webkit-animation: 4s circleAnimate forwards;
-          animation: 4s circleAnimate forwards;
-  -webkit-animation-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.27);
-          animation-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.27);
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-}
-@-webkit-keyframes circleAnimate {
-  from {
-    stroke-dasharray: 275;
-  }
-  to {
-    stroke-dashoffset: 0;
-  }
+  animation: 4s circleAnimate forwards;
+  animation-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.27);
+  animation-delay: 2s;
 }
 @keyframes circleAnimate {
   from {
     stroke-dasharray: 275;
-  }
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-@-webkit-keyframes lettersAnimate {
-  from {
-    stroke-dashoffset: 177;
   }
   to {
     stroke-dashoffset: 0;
@@ -89,10 +69,8 @@ div#two svg .circleTwo {
   stroke-width: 10px;
   stroke-dasharray: 1470;
   stroke-dashoffset: 1470;
-  -webkit-animation: 4s circleTwoAnimate forwards;
-          animation: 4s circleTwoAnimate forwards;
-  -webkit-animation-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.27);
-          animation-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.27);
+  animation: 4s circleTwoAnimate forwards;
+  animation-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.27);
 }
 div#two svg .circleTwo, div#two svg .lettersTwo {
   fill: none;
@@ -103,30 +81,12 @@ div#two svg .lettersTwo {
   stroke-linejoin: round;
   stroke-dasharray: 790;
   stroke-dashoffset: 790;
-  -webkit-animation: 6s lettersTwoAnimate forwards;
-          animation: 6s lettersTwoAnimate forwards;
-  -webkit-animation-timing-function: cubic-bezier(0.17, 0.67, 0.39, 0.97);
-          animation-timing-function: cubic-bezier(0.17, 0.67, 0.39, 0.97);
-}
-@-webkit-keyframes circleTwoAnimate {
-  from {
-    stroke-dasharray: 1470;
-  }
-  to {
-    stroke-dashoffset: 0;
-  }
+  animation: 6s lettersTwoAnimate forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.39, 0.97);
 }
 @keyframes circleTwoAnimate {
   from {
     stroke-dasharray: 1470;
-  }
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-@-webkit-keyframes lettersTwoAnimate {
-  from {
-    stroke-dasharray: 790;
   }
   to {
     stroke-dashoffset: 0;
@@ -156,10 +116,8 @@ div#bye svg .byeLet {
   stroke-width: 6px;
   stroke-dasharray: 790;
   stroke-dashoffset: 790;
-  -webkit-animation: 5s byeLetAnimate forwards;
-          animation: 5s byeLetAnimate forwards;
-  -webkit-animation-timing-function: cubic-bezier(0, 1, 0.92, 0.23);
-          animation-timing-function: cubic-bezier(0, 1, 0.92, 0.23);
+  animation: 5s byeLetAnimate forwards;
+  animation-timing-function: cubic-bezier(0, 1, 0.92, 0.23);
 }
 div#bye svg .byeLet, div#bye svg .circleTri {
   fill: none;
@@ -170,32 +128,13 @@ div#bye svg .circleTri {
   stroke-width: 15px;
   stroke-dasharray: 1470;
   stroke-dashoffset: 1470;
-  -webkit-animation: 5s circleTriAnimate forwards;
-          animation: 5s circleTriAnimate forwards;
-  -webkit-animation-timing-function: cubic-bezier(0.27, 0.73, 0.92, 0.23);
-          animation-timing-function: cubic-bezier(0.27, 0.73, 0.92, 0.23);
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
-}
-@-webkit-keyframes circleTriAnimate {
-  from {
-    stroke-dasharray: 1470;
-  }
-  to {
-    stroke-dashoffset: 0;
-  }
+  animation: 5s circleTriAnimate forwards;
+  animation-timing-function: cubic-bezier(0.27, 0.73, 0.92, 0.23);
+  animation-delay: 0.5s;
 }
 @keyframes circleTriAnimate {
   from {
     stroke-dasharray: 1470;
-  }
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-@-webkit-keyframes byeLetAnimate {
-  from {
-    stroke-dasharray: 790;
   }
   to {
     stroke-dashoffset: 0;
