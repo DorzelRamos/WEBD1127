@@ -138,4 +138,36 @@ svg#spiroGraph .cls-22 {
 }
 #spiroOne .cls-10 {
   fill: #9b8579;
+}
+
+#spiroTwo .cls-1 {
+  fill: #6f6842;
+}
+#spiroTwo .cls-1, #spiroTwo .cls-2, #spiroTwo .cls-3, #spiroTwo .cls-4, #spiroTwo .cls-5, #spiroTwo .cls-6 {
+  opacity: 0.7;
+}
+#spiroTwo .cls-2 {
+  fill: #958f25;
+}
+#spiroTwo .cls-3 {
+  fill: #255695;
+}
+#spiroTwo .cls-4 {
+  fill: #c8c595;
+}
+#spiroTwo .cls-5 {
+  fill: #95acc8;
+}
+#spiroTwo .cls-6 {
+  fill: #262262;
+}
+
+#spiroThree .cls-1 {
+  fill: #00a79d;
+}
+#spiroThree .cls-1, #spiroThree .cls-2 {
+  opacity: 0.75;
+}
+#spiroThree .cls-2 {
+  fill: #da8416;
 }/*# sourceMappingURL=style.css.map */
