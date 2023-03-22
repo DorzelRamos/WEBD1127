@@ -65,6 +65,9 @@
         font-family: pirulen;
         font-size: 3em;
         letter-spacing: 0.4em;
+        span {
+            display: inline-block;
+        }
     }
 }
 .loading {

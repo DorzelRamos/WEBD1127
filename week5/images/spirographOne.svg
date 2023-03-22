@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 315.61 315.59">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a97c50;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10 {
+        opacity: .25;
+      }
+
+      .cls-2 {
+        fill: #594a42;
+      }
+
+      .cls-3 {
+        fill: #c49a6c;
+      }
+
+      .cls-4 {
+        fill: #c2b59b;
+      }
+
+      .cls-5 {
+        fill: #8b5e3c;
+      }
+
+      .cls-6 {
+        fill: #726658;
+      }
+
+      .cls-7 {
+        fill: #603913;
+      }
+
+      .cls-8 {
+        fill: #3c2415;
+      }
+
+      .cls-9 {
+        fill: #754c29;
+      }
+
+      .cls-10 {
+        fill: #9b8579;
+      }
+    </style>
+  </defs>
+  <rect class="cls-4" x="40.57" y="51.86" width="234.46" height="211.86"/>
+  <rect class="cls-10" x="40.57" y="51.86" width="234.46" height="211.86" transform="translate(-24.79 29.5) rotate(-9.91)"/>
+  <rect class="cls-6" x="40.57" y="51.86" width="234.46" height="211.86" transform="translate(-47.79 71) rotate(-22.11)"/>
+  <rect class="cls-2" x="40.57" y="51.86" width="234.46" height="211.86" transform="translate(-57.76 100.04) rotate(-30)"/>
+  <rect class="cls-3" x="40.57" y="51.86" width="234.46" height="211.86" transform="translate(-63.08 125.97) rotate(-36.8)"/>
+  <rect class="cls-1" x="40.57" y="51.86" width="234.46" height="211.86" transform="translate(-65.36 157.64) rotate(-44.96)"/>
+  <rect class="cls-5" x="40.57" y="51.86" width="234.46" height="211.86" transform="translate(-62.54 193.11) rotate(-54.1)"/>
+  <rect class="cls-9" x="40.57" y="51.86" width="234.46" height="211.86" transform="translate(-50.51 237.83) rotate(-66.02)"/>
+  <rect class="cls-7" x="40.57" y="51.86" width="234.46" height="211.86" transform="translate(-35.72 268.93) rotate(-74.86)"/>
+  <rect class="cls-8" x="40.57" y="51.86" width="234.46" height="211.86" transform="translate(-7.54 307.67) rotate(-87.19)"/>
+</svg>
