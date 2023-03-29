@@ -45,7 +45,7 @@ div.container {
   }
   //////////////////////////////// login starts here
   section#login {
-    visibility: hidden; //remove after adding javascript
+    // visibility: hidden; //remove after adding javascript
 
     position: absolute;
     z-index: 5;
@@ -315,7 +315,7 @@ div.container {
       width: 100%;
       border-radius: $radius1;
       background: linear-gradient($gradient3);
-      visibility: hidden; //remove after adding javascript
+    //   visibility: hidden; //remove after adding javascript
     }
   }
 
