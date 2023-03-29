@@ -18,7 +18,7 @@ $(function () {
     welcomeMain.css("visibility", "visible");
     fullGradient.css("visibility", "hidden");
     let tl = gsap.timeline();
-    tl.from(welcomeTop,{opacity:0, y: -200, duration: 0.5}, "+=1");
-    tl.from(welcomeMiddle,{opacity:0, y: 200, duration: 0.5});
+    tl.from(welcomeTop,{opacity:0, y: -200, duration: 0.8, ease: "power2.out"}, "+=0.5");
+    tl.from(welcomeMiddle,{opacity:0, y: 200, duration: 0.5, ease: "power2.out"});
   }
 });
