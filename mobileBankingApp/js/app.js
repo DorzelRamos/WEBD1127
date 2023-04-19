@@ -25,9 +25,9 @@ $(function () {
     tl.from($(".st1"), {drawSVG: "0%", duration:1.5}, "-=0.75");
     // console.log($(".st3"));
     tl.from($(".st3"), {opacity: 0, duration: 1, stagger: 0.1, ease: "power4.out"}, "-=1.25");
-    tl.from($("input#username"), {opacity: "0", y: 100, duration:0.75}, "-=0.25");
-    tl.from($("input#password"), {opacity: "0", y: 100, duration:0.75}, "-=0.25");
-    tl.fromTo($("button#submit"), {opacity: "0", y: 100, duration:0.75}, {opacity: 1, y:0}, "-=0.25");
+    tl.from($("input#username"), {opacity: "0", y: 100, duration:0.75}, "-=0.65");
+    tl.from($("input#password"), {opacity: "0", y: 100, duration:0.75}, "-=0.65");
+    tl.fromTo($("button#submit"), {opacity: "0", y: 100, duration:0.75}, {opacity: 1, y:0}, "-=0.65");
 
 
   };
